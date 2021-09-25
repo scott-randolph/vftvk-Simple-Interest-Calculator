@@ -1,4 +1,39 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+    background-color:black;
+    font-family:arial;
+    color:white;}
+	
+h1{
+    color:grey;
+    font-family:verdana;}
+	
+.maindiv {
+    background-color: white;
+    font-family: arial;
+    color: black;
+    width: 500px;
+    padding: 20px;
+    border-radius: 25px;
+    margin: 0 auto;
+}
 
+footer {
+	width: 500px;
+	margin: 0 auto;
+}
+
+#principal {
+	position: relative;
+	left: 30px;
+}
+
+#rate {
+	position: relative;
+	left: 50px;
+}
+
+#rate_val {
+	position: relative;
+	left: 50px;
+}
 
