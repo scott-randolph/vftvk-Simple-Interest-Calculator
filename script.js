@@ -24,9 +24,9 @@ function compute()
 	// if a positive number was entered display the result.
 	else {	
 		document.getElementById("result").innerHTML =
-		"If you deposit " + "<strong>" + principal + "</strong>" + ",\<br\>at an interest rate of "
-		+ "<strong>" + rate + "</strong>" +"%\<br\>You will receive an amount of " + "<strong>" + amount + "</strong>" +
-		",\<br\>in the year " + "<strong>" + year + "</strong>" + "\<br\>";
+		"If you deposit " + "<mark>" + principal + "</mark>" + ",\<br\>at an interest rate of "
+		+ "<mark>" + rate + "</mark>" +"%\<br\>You will receive an amount of " + "<mark>" + amount + "</mark>" +
+		",\<br\>in the year " + "<mark>" + year + "</mark>" + "\<br\>";
 	}
 }
 
